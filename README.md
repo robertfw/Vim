@@ -364,14 +364,14 @@ Custom remappings are defined on a per-mode basis.
 #### Debugging Remappings
 
 1.  Adjust the extension's logging level to 'debug' and open the Output window:
-    1.  Run "Developer: Set Log Level" from the command palette.
-    2.  Select "Vim", then "Debug"
-    3.  Run "Developer: Reload window"
-    4.  In the bottom panel, open the "Output" tab and select Vim from the dropdown selection.
+    1.  Run `Developer: Set Log Level` from the command palette.
+    2.  Select `Vim`, then `Debug`
+    3.  Run `Developer: Reload window`
+    4.  In the bottom panel, open the `Output` tab and select `Vim` from the dropdown selection.
        
 2.  Are your configurations correct?
 
-    As each remapped configuration is loaded, it is output to the console. In the Vim Output panel, do you see any errors?
+    As each remapped configuration is loaded, it is logged to the Vim Output panel. Do you see any errors?
 
     ```console
     debug: Remapper: normalModeKeyBindingsNonRecursive. before=0. after=^.
